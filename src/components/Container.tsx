@@ -6,7 +6,7 @@ export const Container = styled.div`
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
-    border: 2px solid red;
+    //border: 2px solid red;
     
     @media ${theme.media.tablet} {
         padding:0 10px;
