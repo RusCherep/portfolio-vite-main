@@ -61,6 +61,7 @@ const StyledAbout = styled.section`
     min-height: 100vh;
     margin: 0 auto;
     position: relative;
+    overflow: hidden;
     
     &::before {
         content: "";
@@ -72,10 +73,8 @@ const StyledAbout = styled.section`
         height: 1019px;
         top: 150px;
         right: -350px;
-        z-index: -1; /* Помещаем под основной контент */
-        
+        z-index: -1;
     }
-    
 `
 
 const StyledAboutH2 = styled.h2`
